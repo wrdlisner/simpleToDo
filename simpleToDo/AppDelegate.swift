@@ -1,13 +1,6 @@
-//
-//  AppDelegate.swift
-//  simpleToDo
-//
-//  Created by 袖川航平 on 2018/10/24.
-//  Copyright © 2018 袖川航平. All rights reserved.
-//
-
 import UIKit
 import CoreData
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +10,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        IQKeyboardManager.shared.enable = true
+        
         return true
     }
 
