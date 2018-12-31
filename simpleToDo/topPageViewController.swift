@@ -3,6 +3,11 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
   
     @IBOutlet weak var todoList: UITableView!
+    @IBOutlet weak var change0: UIButton!
+    @IBOutlet weak var change1: UIButton!
+    @IBOutlet weak var change2: UIButton!
+    @IBOutlet var topView: UIView!
+    
     
     var todos : [String] = []
     
@@ -31,9 +36,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return toDoCell
     }
     
-    @IBAction func addTodo(_ sender: UIBarButtonItem) {
+    @IBAction func change0(_ sender: UIButton) {
+        
+        topView.backgroundColor = UIColor(red: 116/255, green: 185/255, blue: 255/255, alpha: 1.0)
+        todoList.backgroundColor = UIColor(red: 129/255, green: 236/255, blue: 236/255,alpha: 1.0)
         
         
     }
+    
+    
     
 }

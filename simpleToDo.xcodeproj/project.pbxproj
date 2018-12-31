@@ -18,7 +18,7 @@
 		B01B0F8421807AAB0087724A /* simpleToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B0F8321807AAB0087724A /* simpleToDoTests.swift */; };
 		B01B0F8F21807AAB0087724A /* simpleToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B0F8E21807AAB0087724A /* simpleToDoUITests.swift */; };
 		B08A176821844CEC00222DA5 /* topPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08A176721844CEC00222DA5 /* topPageViewController.swift */; };
-		B0BB7C9221871E1F0086585A /* addTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BB7C9121871E1F0086585A /* addTodoViewController.swift */; };
+		B0BB7C94218869130086585A /* setTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BB7C93218869130086585A /* setTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +60,7 @@
 		B01B0F8E21807AAB0087724A /* simpleToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simpleToDoUITests.swift; sourceTree = "<group>"; };
 		B01B0F9021807AAB0087724A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08A176721844CEC00222DA5 /* topPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = topPageViewController.swift; sourceTree = "<group>"; };
-		B0BB7C9121871E1F0086585A /* addTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTodoViewController.swift; sourceTree = "<group>"; };
+		B0BB7C93218869130086585A /* setTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTodoViewController.swift; sourceTree = "<group>"; };
 		BEA5774EC5635555BC664774 /* libPods-simpleToDoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-simpleToDoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D446D5612679EBD12393B69B /* Pods-simpleToDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simpleToDo.release.xcconfig"; path = "Pods/Target Support Files/Pods-simpleToDo/Pods-simpleToDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,7 +133,7 @@
 			children = (
 				B01B0F6B21807AA60087724A /* AppDelegate.swift */,
 				B01B0F6F21807AA60087724A /* Main.storyboard */,
-				B0BB7C9121871E1F0086585A /* addTodoViewController.swift */,
+				B0BB7C93218869130086585A /* setTodoViewController.swift */,
 				B01B0F7521807AAB0087724A /* Assets.xcassets */,
 				B01B0F7721807AAB0087724A /* LaunchScreen.storyboard */,
 				B08A176721844CEC00222DA5 /* topPageViewController.swift */,
@@ -397,7 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0BB7C9221871E1F0086585A /* addTodoViewController.swift in Sources */,
+				B0BB7C94218869130086585A /* setTodoViewController.swift in Sources */,
 				B01B0F7421807AA60087724A /* simpleToDo.xcdatamodeld in Sources */,
 				B08A176821844CEC00222DA5 /* topPageViewController.swift in Sources */,
 				B01B0F6C21807AA60087724A /* AppDelegate.swift in Sources */,
